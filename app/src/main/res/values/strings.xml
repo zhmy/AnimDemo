@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AnimDemo</string>
+
+    <string-array name="big_praise">
+        <item>@mipmap/big_praise_01</item>
+        <item>@mipmap/big_praise_02</item>
+        <item>@mipmap/big_praise_03</item>
+        <item>@mipmap/big_praise_04</item>
+        <item>@mipmap/big_praise_05</item>
+        <item>@mipmap/big_praise_06</item>
+        <item>@mipmap/big_praise_07</item>
+        <item>@mipmap/big_praise_08</item>
+        <item>@mipmap/big_praise_09</item>
+        <item>@mipmap/big_praise_10</item>
+        <item>@mipmap/big_praise_11</item>
+        <item>@mipmap/big_praise_12</item>
+        <item>@mipmap/big_praise_13</item>
+        <item>@mipmap/big_praise_14</item>
+        <item>@mipmap/big_praise_15</item>
+        <item>@mipmap/big_praise_16</item>
+        <item>@mipmap/big_praise_17</item>
+        <item>@mipmap/big_praise_18</item>
+        <item>@mipmap/big_praise_19</item>
+        <item>@mipmap/big_praise_20</item>
+        <item>@mipmap/big_praise_21</item>
+        <item>@mipmap/big_praise_22</item>
+        <item>@mipmap/big_praise_23</item>
+        <item>@mipmap/big_praise_24</item>
+        <item>@mipmap/big_praise_25</item>
+        <item>@mipmap/big_praise_26</item>
+        <item>@mipmap/big_praise_27</item>
+        <item>@mipmap/big_praise_28</item>
+        <item>@mipmap/big_praise_29</item>
+        <item>@mipmap/big_praise_30</item>
+        <item>@mipmap/big_praise_31</item>
+        <item>@mipmap/big_praise_32</item>
+        <item>@mipmap/big_praise_33</item>
+        <item>@mipmap/big_praise_34</item>
+        <item>@mipmap/big_praise_35</item>
+    </string-array>
+    
+</resources>
