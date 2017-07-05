@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
@@ -12,7 +13,7 @@ import android.view.animation.TranslateAnimation;
 public class AnimationActivity extends AppCompatActivity implements View.OnClickListener {
 
     private View hello;
-    private View alpha, scale, rotate, translate;
+    private View alpha, scale, rotate, translate, animSet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +29,13 @@ public class AnimationActivity extends AppCompatActivity implements View.OnClick
         scale = findViewById(R.id.scale);
         rotate = findViewById(R.id.rotate);
         translate = findViewById(R.id.translate);
+        animSet = findViewById(R.id.animSet);
 
         alpha.setOnClickListener(this);
         scale.setOnClickListener(this);
         rotate.setOnClickListener(this);
         translate.setOnClickListener(this);
+        animSet.setOnClickListener(this);
     }
 
     @Override
@@ -50,9 +53,17 @@ public class AnimationActivity extends AppCompatActivity implements View.OnClick
             case R.id.translate:
                 startTranslateAnimation();
                 break;
+            case R.id.animSet:
+                startAnimSet();
+                break;
             default:
                 break;
         }
+    }
+
+    private void startAnimSet() {
+        cancelPrev();
+        hello.startAnimation(AnimationUtils.loadAnimation(this, R.anim.anim_test));
     }
 
     private void startTranslateAnimation() {

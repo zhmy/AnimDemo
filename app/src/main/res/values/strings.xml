@@ -38,5 +38,7 @@
         <item>@mipmap/big_praise_34</item>
         <item>@mipmap/big_praise_35</item>
     </string-array>
-    
+
+    <integer name="card_flip_time_full">500</integer>
+    <integer name="card_flip_time_half">250</integer>
 </resources>

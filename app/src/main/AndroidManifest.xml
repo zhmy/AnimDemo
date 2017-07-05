@@ -19,6 +19,7 @@
         <activity android:name=".AnimationActivity"></activity>
         <activity android:name=".AnimationDrawableActivity"></activity>
         <activity android:name=".AnimatorActivity"></activity>
+        <activity android:name=".MaterialDesignActivity"></activity>
         <activity android:name=".DemoActivity"></activity>
     </application>
 

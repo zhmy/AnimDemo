@@ -10,9 +10,8 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_margin="50dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@mipmap/big_praise_01"
         android:text="hello" />
-
 
     <LinearLayout
         android:layout_width="match_parent"

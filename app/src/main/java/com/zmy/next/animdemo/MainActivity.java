@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, AnimatorActivity.class));
                 break;
             case R.id.materialDesign:
-                startActivity(new Intent(MainActivity.this, AnimationActivity.class));
+                startActivity(new Intent(MainActivity.this, MaterialDesignActivity.class));
                 break;
             case R.id.demo:
                 startActivity(new Intent(MainActivity.this, DemoActivity.class));
